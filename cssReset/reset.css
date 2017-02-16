@@ -1,4 +1,4 @@
-/*
+
  * @css reset
  * @author: kelichao;
  * @update: 2017-2-16
@@ -102,13 +102,39 @@
 
 /* 容器内部子元素水平垂直居中 */
 /*存放<img>的容器设置如下*/
-.f-autocont{ 
-	/*将内部元素按照单元格显示，因此可以垂直居中*/
-	/*需要与vertical配合*/
-    display:table-cell; 
-    text-align:center;
-    vertical-align:middle;
+/*将内部元素按照单元格显示，因此可以垂直居中*/
+/*需要与vertical配合*/
+.f-autocont{display:table-cell; text-align:center;vertical-align:middle;}
+
+/*多列自适应布局*/
+.f-flex {
+	display: -webkit-box;/*09年*/
+	display: -moz-box;/*09年*/
+	display: -ms-flexbox;/*09年*/
+	display: -webkit-flex;/*12年*/
+	display: flex;/*标准版*/
 }
+
+/* flex布局的内部类目,均分 */
+.f-item {
+	-webkit-box-flex: auto;
+	-moz-box-flex: auto;
+	-webkit-flex: auto;
+	-ms-flex: auto;
+	flex: auto;
+}
+
+
+/*环绕模式*/
+.f-around {justify-content: space-around;}
+
+/*不会拉长item的高度, 不拉长高度的话就可以使span垂直居中*/
+.f-align{
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
 
 /*清除浮动*/
 .f-fix:after{content:"";display:block;height:0;clear:both;visibility:hidden;}
@@ -209,4 +235,4 @@
 .f-pr10{padding-right:10px;}
 .f-pt10{padding-top:10px;}
 .f-pb10{padding-top:10px;}
-/* ------------------- single CSS end------------------ */
+/* ------------------- single CSS end------------------ 
