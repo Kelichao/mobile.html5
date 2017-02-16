@@ -1,0 +1,206 @@
+/* --------------------single CSS start----------------------- */
+
+/* display */
+.f-hide{display:none;}
+.f-di{display:inline;}
+.f-db{display:block;}
+.f-dib{display:inline-block;}
+
+/* height */
+.f-h14{height:14px;}
+.f-h16{height:16px;}
+.f-h18{height:18px;}
+.f-h20{height:20px;}
+.f-h22{height:22px;}
+.f-h24{height:24px;}
+
+/* line-height */
+.f-lh14{line-height:14px;}
+.f-lh16{line-height:16px;}
+.f-lh18{line-height:18px;}
+.f-lh20{line-height:20px;}
+.f-lh22{line-height:22px;}
+.f-lh24{line-height:24px;}
+
+/* font-size */
+.f-f0{font-size:0;}
+.f-f10{font-size:10px;}
+.f-f12{font-size:12px;}
+.f-f13{font-size:13px;}
+.f-f14{font-size:14px;}
+.f-f16{font-size:16px;}
+.f-f18{font-size:18px;}
+.f-f20{font-size:20px;}
+.f-f24{font-size:24px;}
+
+/* font-family */
+.f-fa{font-family:Arial;}
+.f-ft{font-family:Tahoma;}
+.f-fv{font-family:Verdana;}
+.f-fs{font-family:Simsun;}
+.f-fl{font-family:'Lucida Console';}
+.f-fw{font-family:'Microsoft Yahei';}
+
+/* font-color */
+.f-cw{color:white;}
+.f-cb{color:black;}
+.f-cr{color:red;}
+
+/* font-style */
+.f-fwn{font-weight:normal; font-style:normal;}
+.f-fwb{font-weight:bold;}
+.f-fsi{font-style:italic;}
+
+/* text-align */
+.f-center{text-align:center;}
+.f-tar{text-align:right;}
+.f-tal{text-align:left;}
+
+/* text-decoration */
+.f-tdu{text-decoration:underline;}
+
+/* css3过渡动画效果 */
+.f-trans3{-webkit-transition:all 0.3s;transition:all 0.3s;}
+.f-trans5{-webkit-transition:all 0.5s;transition:all 0.5s;}
+.f-trans8{-webkit-transition:all 0.8s;transition:all 0.8s;}
+.f-trans10{-webkit-transition:all 1s;transition:all 1s;}
+
+/* 单行文字溢出虚点显 示*/
+.f-ell{text-overflow:ellipsis;white-space:nowrap;overflow:hidden;}
+
+/* 浮动 */
+.f-fl{float:left}
+.f-fr{float:right}
+
+/* 鼠标手势 */
+.f-cp{cursor:pointer;}
+.f-cd{cursor:default;}
+.f-cna{cursor:not-allowed;}
+
+/* position */
+.f-pr{position:relative}
+.f-pa{position:absolute}
+.f-pf{position:fixed;}
+
+/*用于absolute或者fixed定位或者浮动,任意类型元素的水平居中(要求：1.宽度必须要有)*/
+.f-pauto{left:0;right:0;margin-left:auto;margin-right:auto;position:absolute;/*父元素需要相对定位*/}
+
+/*任意类型元素的水平垂直居中(要求：1.宽度必须要有)*/
+.f-pautoall{left:0;right:0;top:0;bottom:0;margin:auto;position:absolute;/*父元素需要相对定位*/}
+
+/* 块元素水平居中(要求 1.无定位 2.设定宽度 3.必须是display:block) */
+.f-auto{margin-left:auto;margin-right:auto;display:block;}
+
+/* 块元素水平垂直居中(要求 1.无定位 2.设定宽度 3.必须是display:block) */
+.f-auto{margin:auto;display:block;}
+
+/* 容器内部子元素水平垂直居中 */
+/*存放<img>的容器设置如下*/
+.f-autocont{ 
+	/*将内部元素按照单元格显示，因此可以垂直居中*/
+	/*需要与vertical配合*/
+    display:table-cell; 
+    text-align:center;
+    vertical-align:middle;
+}
+
+/*清除浮动*/
+.f-fix:after{content:"";display:block;height:0;clear:both;visibility:hidden;}
+
+/*在IE6/7中通过zoom:1可以触发hasLayout。*/
+.f-fix{zoom:1;}
+
+/* vertical-align */
+.f-vam{vertical-align:middle;}
+.f-vab{vertical-align:bottom;}
+.f-vat{vertical-align:top;}
+.f-vatb{vertical-align:text-bottom;}
+
+/* visibility */
+.f-vh{visibility:hidden;}
+.f-vv{visibility:visible;}
+
+/* zoom */
+.f-z{*zoom:1;}
+
+/* 加载中背景图片 - 如果您使用该CSS小库，务必修改此图片地址 */
+.f-loading{background:url() no-repeat center;}
+
+/* 按钮禁用，如果有disabled则return */
+.f-disabled{color:#acacac;border-color:#acacac;text-shadow:1px 1px #fff;outline:0;cursor:default;pointer-events:none;}
+.f-disabled:hover{text-decoration:none;}
+
+/*增加了margin*/
+.f-m1{margin:1px;}
+.f-ml1{margin-left:1px;}
+.f-mr1{margin-right:1px;}
+.f-mt1{margin-top:1px;}
+.f-mb1{margin-top:1px;}
+
+.f-m2{margin:2px;}
+.f-ml2{margin-left:2px;}
+.f-mr2{margin-right:2px;}
+.f-mt2{margin-top:2px;}
+.f-mb2{margin-top:2px;}
+
+.f-m3{margin:3px;}
+.f-ml3{margin-left:3px;}
+.f-mr3{margin-right:3px;}
+.f-mt3{margin-top:3px;}
+.f-mb3{margin-top:3px;}
+
+.f-m5{margin:5px;}
+.f-ml5{margin-left:5px;}
+.f-mr5{margin-right:5px;}
+.f-mt5{margin-top:5px;}
+.f-mb5{margin-top:5px;}
+
+.f-m7{margin:7px;}
+.f-ml7{margin-left:7px;}
+.f-mr7{margin-right:7px;}
+.f-mt7{margin-top:7px;}
+.f-mb7{margin-top:7px;}
+
+.f-m10{margin:10px;}
+.f-ml10{margin-left:10px;}
+.f-mr10{margin-right:10px;}
+.f-mt10{margin-top:10px;}
+.f-mb10{margin-top:10px;}
+
+/*增加了padding*/
+.f-p1{padding:1px;}
+.f-pl1{padding-left:1px;}
+.f-pr1{padding-right:1px;}
+.f-pt1{padding-top:1px;}
+.f-pb1{padding-top:1px;}
+
+.f-p2{padding:2px;}
+.f-pl2{padding-left:2px;}
+.f-pr2{padding-right:2px;}
+.f-pt2{padding-top:2px;}
+.f-pb2{padding-top:2px;}
+
+.f-p3{padding:3px;}
+.f-pl3{padding-left:3px;}
+.f-pr3{padding-right:3px;}
+.f-pt3{padding-top:3px;}
+.f-pb3{padding-top:3px;}
+
+.f-p5{padding:5px;}
+.f-pl5{padding-left:5px;}
+.f-pr5{padding-right:5px;}
+.f-pt5{padding-top:5px;}
+.f-pb5{padding-top:5px;}
+
+.f-p7{padding:7px;}
+.f-pl7{padding-left:7px;}
+.f-pr7{padding-right:7px;}
+.f-pt7{padding-top:7px;}
+.f-pb7{padding-top:7px;}
+
+.f-p10{padding:10px;}
+.f-pl10{padding-left:10px;}
+.f-pr10{padding-right:10px;}
+.f-pt10{padding-top:10px;}
+.f-pb10{padding-top:10px;}
+/* ------------------- single CSS end------------------ */
