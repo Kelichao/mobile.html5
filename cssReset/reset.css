@@ -3,24 +3,25 @@
  * @author: kelichao;
  * @update: 2017-2-16
  */
-/* 注:div,span是没有margin,padding的 */
-body,button,dd,dl,dt,fieldset,form,
-h1,h2,h3,h4,h5,h6,hr,input,legend,
-li,ol,p,pre,td,textarea,th,ul {margin: 0;padding:0;outline:none;}
+ body,button,dd,dl,dt,fieldset,form,
+ h1,h2,h3,h4,h5,h6,hr,input,legend,
+ li,ol,p,pre,td,textarea,th,ul {margin: 0;padding:0;outline:none;}
 
-h1,h2,h3,h4,h5,h6 {font-size:100%}
-body,button,input,select,textarea {font-size:12px;font-family:;}
-address,cite,dfn,em,var,i{font-style:normal;}
-strong {font-weight:normal;}
-small {font-size:12px}
-ol,ul,li {list-style:none}
-a{text-decoration:none}
-a:hover{text-decoration:underline}
-legend{color:#000}
-button,input,select,textarea{font-size:100%}
-table {border-collapse:collapse;border-spacing:0;border:1px solid}
-tr,td{border:1px solid}
+ h1,h2,h3,h4,h5,h6 {font-size:100%}
+ body,button,input,select,textarea {font-size:12px;font-family:;}
+ address,cite,dfn,em,var,i{font-style:normal;}
+ strong {font-weight:normal;}
+ small {font-size:12px}
+ ol,ul,li {list-style:none}
+ a{text-decoration:none}
+ a:hover{text-decoration:underline}
+ legend{color:#000}
+ button,input,select,textarea{font-size:100%}
+ table {border-collapse:collapse;border-spacing:0;border:1px solid}
+ tr,td{border:1px solid}
 /* --------------------single CSS start----------------------- */
+/*去除点击阴影*/
+.f-thc{-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
 
 /* display */
 .f-hide{display:none;}
@@ -216,6 +217,7 @@ tr,td{border:1px solid}
 .f-mb10{margin-top:10px;}
 
 /*增加了padding*/
+.f-p0{padding:0;}
 .f-p1{padding:1px;}
 .f-pl1{padding-left:1px;}
 .f-pr1{padding-right:1px;}
