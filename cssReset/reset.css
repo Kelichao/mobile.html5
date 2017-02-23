@@ -126,7 +126,7 @@
 
 /*多列自适应布局*/
 .f-flex {
-	display: -webkit-box;/*09年*/
+	/*display: -webkit-box;*//*09年,适配有问题*/
 	display: -moz-box;/*09年*/
 	display: -ms-flexbox;/*09年*/
 	display: -webkit-flex;/*12年*/
