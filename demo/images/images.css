@@ -1,0 +1,195 @@
+/*
+ * @css reset
+ * @author: kelichao;
+ * @update: 2017-2-16
+ */
+/*根元素字体不会小于12px*/
+/* 这里的width是指实际的页面宽度 */
+@media screen and (max-width: 320px) { html{font-size: 16px;} }
+/* 375为iphone6屏幕宽度 */
+@media screen and (min-width: 321px) and (max-width: 375px) { html{font-size: 20px;} }
+/*  414为iphone6plus的屏幕宽度 */
+@media screen and (min-width: 376px) and (max-width: 414px) { html{font-size: 22px;} }
+@media screen and (min-width: 415px) and (max-width: 640px) { html{font-size: 24px;} }
+@media screen and (min-width: 641px) { html{font-size: 28px;} }
+
+
+body {
+	background-color:#0b1367;
+}
+* {
+	font-family:sourcehansanscn;
+}
+a:active {
+	-webkit-transform: scale(1.05,1.05);
+	        transform: scale(1.05,1.05);
+}
+.g-banner {
+	/*background:url("../images/banner.jpg") no-repeat center center;*/
+	width:100%;
+	/*height:50px;*/
+}
+.u-enter,.u-start {
+	width:10rem;
+	height:3.5rem;
+	line-height:3.3rem;
+	background: url("../images/button.png") no-repeat center center;
+	background-size:10rem;
+
+}
+.u-title {
+	color:#f2d602;
+	font-size:0.9rem;
+	font-weight: bolder;
+	text-align:center;
+	background:#0b1367;
+	display: inline-block;
+	text-indent:4px;
+	padding-right:0.25rem;
+}
+.m-container {
+	margin:auto;
+	margin-top:1.1rem;
+	width:90%;
+
+}
+.u-bg {
+	background: -webkit-linear-gradient(left,#0b1367,#f2d602, #0b1367); /* Safari 5.1 - 6.0 */
+	background: linear-gradient(left,#0b1367,#f2d602, #0b1367); /* 标准的语法 */
+	height:0.1rem;
+	position:absolute;
+	width: 100%;
+	top: 0.8rem;
+	z-index: -1;
+}
+.u-menu {
+	width:0.6rem;
+	vertical-align: top;
+}
+.u-rule{
+	font-size:0.75rem;
+	font-weight:bold;
+	vertical-align: middle;
+	text-indent:0.75rem;
+	background-image:url("../images/menu.png");
+	background-position-x:0;
+	background-position-y:0.1rem;
+	background-size:0.6rem;
+	background-repeat: no-repeat;
+
+}
+.m-introduct{
+	color:white;
+	font-size:0.65rem;
+	border:1px solid #5e48c3;
+	background:#292898;
+	padding:0.8rem;
+	margin-top:0.3rem;
+	border-radius:10px;
+	margin-bottom:1.2rem;
+}
+.u-demo {
+	width:90%;
+	margin-top:0.7rem;
+	margin-bottom:0.7rem;
+}
+.f-indent{
+	text-indent:0.75rem;
+}
+.f-border_left{
+	border-left:1px solid #3a399f;
+}
+.f-border_right{
+	border-right:1px solid #3a399f;
+}
+.f-border_bt{
+	border-bottom:1px solid #3a399f;
+}
+.f-ml{
+	margin-left:0.75rem;
+}
+.m-select{
+	padding:0;
+}
+.u-unselect{
+	background-image:url("../images/checked.png");
+	background-position-x:0;
+	background-position-y:0.3rem;
+	background-size:0.625rem;
+	background-repeat: no-repeat;
+}
+.u-on {
+	background-position-y:0.13rem;
+}
+.u-start{
+	background:url("../images/start.png") no-repeat center center;
+	background-size:10rem;
+}
+.u-yellow{
+	color:#f2d602;
+}
+.u-circle{
+	border-radius:100px;
+	border:1px solid;
+	padding-left:0.1rem;
+	padding-right:0.1rem;
+	text-indent: 0.25rem
+	font-size: 0.15rem;
+}
+.u-question{
+	width: 0.75rem;
+	vertical-align: middle;
+	padding-bottom: 0.15rem;
+	/*line-height: 0.625rem*/
+}
+.m-tb thead td{
+	background:#3534b6;
+	text-align:center;
+}
+.m-tb {
+	width:100%;
+	color:white;
+	font-size:0.625rem;
+	table-layout: fixed;
+}
+.m-tb, tr, td{
+	height:1rem;
+/*	line-height: 1rem;*/
+	border:1px solid #3a399f;
+	text-align:center;
+	text-overflow:ellipsis;white-space:nowrap;
+	padding:0 0.25rem 0 0.25rem;
+}
+.u-first, .u-second, .u-third{
+	background-image:url("../images/item.png");
+	background-size:0.9rem;
+	background-repeat:no-repeat;
+	background-position-x:center;
+	background-position-y:0.05rem;
+}
+.u-second{
+	background-position-y: -1rem;
+}
+.u-third{
+	background-position-y: -2.08rem;
+}
+.u-company{
+	width:90%;
+	font-size:0.625rem;
+	color:#999aee;
+	margin:0 auto;
+	margin-top:0.25rem;
+	height:2rem;
+}
+.u-type1,.u-type2{
+	width:44%;
+	display: block;
+	float:left;
+	min-height:100%;
+}
+.u-start_cont{
+	border-top:1px solid #5e48c3;
+}
+.u-orange {
+	color:#f2d602;
+}
