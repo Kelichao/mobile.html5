@@ -126,7 +126,13 @@
 
 /*多列自适应布局*/
 .f-flex {
-	/*display: -webkit-box;*//*09年,适配有问题*/
+	display: -webkit-box;/*09年,适配有问题*/
+	/*给webkit老版本样式做兼容*/
+	-webkit-box-align: center;
+	-webkit-box-pack: justify;
+	align-items: center;
+	-webkit-align-items: center;
+
 	display: -moz-box;/*09年*/
 	display: -ms-flexbox;/*09年*/
 	display: -webkit-flex;/*12年*/
