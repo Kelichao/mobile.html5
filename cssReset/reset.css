@@ -109,14 +109,14 @@
 /*用于absolute或者fixed定位或者浮动,任意类型元素的水平居中(要求：1.宽度必须要有)*/
 .f-pauto{left:0;right:0;margin-left:auto;margin-right:auto;position:absolute;/*父元素需要相对定位*/}
 
-/*任意类型元素的水平垂直居中(要求：1.宽度必须要有)*/
+/*任意类型元素的水平垂直居中(要求：1.宽度必须要有.2高度必须有不然撑满整个屏幕)*/
 .f-pautoall{left:0;right:0;top:0;bottom:0;margin:auto;position:absolute;/*父元素需要相对定位*/}
 
 /* 块元素水平居中(要求 1.无定位 2.设定宽度 3.必须是display:block) */
 .f-auto{margin-left:auto;margin-right:auto;display:block;}
 
-/* 块元素水平垂直居中(要求 1.无定位 2.设定宽度 3.必须是display:block) */
-.f-auto{margin:auto;display:block;}
+/*大致放中间不考虑自身高度*/
+.f-auto2{position: absolute;top:42%;left:0;right:0;margin:auto;}
 
 /* 容器内部子元素水平垂直居中 */
 /*存放<img>的容器设置如下*/
