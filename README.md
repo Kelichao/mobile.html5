@@ -19,3 +19,9 @@ testm.10jqka.com.cn 域名的服务器ip是 172.20.0.224 端口22 要用sftp
 
 ## H5元素选择逻辑图
 ![image](https://cloud.githubusercontent.com/assets/18028533/21841538/7cd9f8b4-d81d-11e6-9d0d-cda4824edb06.png)
+
+
+# 页面滚到上面去了
+$('.title_bar').each(function(i){
+ this.scrollIntoView({block: "start", behavior: "auto"});
+ });
